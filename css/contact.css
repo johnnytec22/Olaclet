@@ -1,0 +1,238 @@
+/**nav stylings are in the general.css**/
+.input-group-addon, .form-control {
+    border: 1px solid #09C924!important;
+}
+.input-group-addon {
+    border-top-left-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
+    color: white;
+    border-color: #09C924 !important;
+    background-color: #09C924 !important;
+}
+.form-control {
+    border-top-right-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
+}
+/**header**/
+header {
+    background-image: url('../images/contact-img/adeptal contact us1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 440px;
+    position: relative;
+}
+
+header .container #header-info {
+    color: white;
+    z-index: 1;
+    position: absolute;
+    top: 45%;
+    bottom: 0;
+    right: 27%;
+    left: 27%;
+}
+
+header .overlay, #contact_info .overlay {
+    position: absolute;
+    background: rgba(128, 0, 128, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+@media(max-width: 768px) and (min-width: 501px){
+    header .container #header-info {
+        right: 20%;
+        left: 20%;
+    }
+    header .container #header-info h1 {
+        font-size: 30px;
+    }
+    header .container #header-info p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 500px) {
+    header {
+        height: 280px;
+    }
+    header .container #header-info {
+        right: 0;
+        left: 0;
+    }
+    header .container #header-info h1 {
+        font-size: 25px;
+    }
+    header .container #header-info p {
+        line-height: 1.5;
+    }
+}
+
+@media(max-width: 400px) {
+    header .container #header-info h1 {
+        font-size: 23px;
+    }
+}
+/**contact form**/
+#contact_form {
+    padding: 130px 2% 230px 2%;
+}
+
+#contact_form  hr{
+    margin-bottom: 40px !important;
+}
+
+#contact_form .input-group {
+    margin-bottom: 15px !important;
+}
+#contact_form #form_paragraph {
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 30px;
+}
+
+@media(max-width: 767px) and (min-width: 390px ){
+    #contact_form {
+        padding: 60px 16% 150px 16%;
+    }
+}
+
+@media(max-width: 450px) {
+    #contact_form #form_paragraph {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    #contact_form {
+        padding: 60px 0 150px 0;
+    }
+}
+
+
+
+
+.open-blink {
+	content: ' ';
+	position: relative;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: 0 20px;
+	border-radius: 50%;
+	background-color: #04E11E;
+
+}
+
+.open-blink:before {
+	content: ' ';
+	position: absolute;
+	top: -8px;
+	left: -8px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	opacity: 0.2;
+	border-radius: 50%;
+	background-color: #04E11E;
+}
+
+
+
+#contact_info {
+    position: relative;
+    color: white;
+    margin-bottom: 0px !important;
+    padding: 150px 0;
+    background-image: url('../images/contact-img/adeptal contact info.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#contact_info #location {
+    margin-top: 5% !important;
+}
+#contact_info h5 {
+    padding: 0px !important;
+    font-size: 18px;
+}
+#contact_info .well {
+    background : rgba(0, 0, 0, 0.9) !important;
+    color: whitesmoke;
+    border-radius: 4px !important;
+    border: 0 !important;
+    position: absolute;
+    height: 230px;
+    top: -18%;
+    right: 30%;
+    left: 30%;
+    z-index: 10;
+}
+#contact_info #opening_hours i {
+    color: #09C924;
+}
+#contact_info #opening_hours h3 {
+    color: whitesmoke;
+    margin: 0 !important;
+    font-size: 18px;
+}
+#contact_form h2, #opening_hours h4, #location h3 {
+    font-family: Baloo;
+}
+
+@media(max-width: 770px ) and (min-width: 500px) {
+    #contact_info .well {
+        top: -13%;
+        right: 15%;
+        left: 15%;
+    }
+    #contact_info {
+        padding: 150px 0 50px 0;
+    }
+}
+@media(max-width: 499px ) {
+    #contact_info .well {
+        top: -14%;
+        right: 5%;
+        left: 5%;
+
+    }
+    #contact_info {
+        padding: 150px 0 50px 0;
+    }
+    #contact_form h2 {
+        font-size: 22px;
+    }
+    header .container #header-info p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+}
+@media(max-width: 450px) {
+    #contact_info #location h3 {
+        font-size: 18px;
+    }
+    #contact_info #location h5, #contact_info #opening_hours h3 {
+        font-size: 16px;
+    }
+    #contact_info #opening_hours h4#opening_hours_header {
+        font-size: 20px !important;
+    }
+}
+/**footer**/
+footer {
+    background: white;
+    padding-top: 15px;
+    color: rgba(0, 0, 0, 0.9);
+}
+footer i {
+    color: purple !important;
+}
+
+footer a {
+    color: rgba(0, 0, 0, 0.9);
+}

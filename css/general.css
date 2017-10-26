@@ -1,0 +1,213 @@
+@font-face {
+    font-family: Baloo;
+    src: url('../fonts/BalooBhaijaan-Regular.ttf');
+}
+@font-face {
+    font-family: Josefin;
+    src: url('../fonts/JosefinSans-Regular.ttf');
+}
+@font-face {
+    font-family: Calligraf;
+    src: url('../fonts/Calligraffitti-Regular.ttf');
+}
+body, html, main {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: Josefin;
+}
+header #header-info h1, header div.header_info h1 {
+    font-family: Calligraf;
+    font-size: 40px;
+}
+header .container #header-info p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.title-line {
+    margin-top: 0px !important;
+    margin-bottom: 70px ;
+    width: 60px;
+    border : 1px solid #09C924;
+}
+i.page-icon {
+    color: #09C924;
+    position: absolute;
+    top: 94%;
+    left: 8%;
+}
+/**active page**/
+.active {
+    border-color: #09C924 !important;
+    border-radius: 2px;
+}
+.btn-primary {
+    color: white;
+    background: #09C924;
+    text-transform: uppercase;
+    padding: 7px 20px !important;
+    font-size: 15px;
+    border-radius: 2px !important;
+    border: 1px solid transparent !important;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+@media(max-width: 500px){
+    .btn-primary {
+        font-size: 16px;
+    }
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    color: #09C924 !important;
+    background: transparent !important;
+    border: 1px solid #09C924 !important;
+}
+nav {
+    border: 0px !important;
+    transition: all 0.5s ease-in-out;
+}
+nav .navbar-brand h3 {
+    padding: 0 !important;
+    margin: 0 !important;
+    position: absolute;
+    left: 50px;
+    font-family: Josefin;
+    font-weight: bold;
+    font-size: 27px;
+}
+nav .navbar-brand {
+    height: 100% !important;
+    margin-left: 20px;
+    margin-top: 18px;
+    position: relative;
+}
+nav .navbar-brand img {
+    position: absolute;
+    top: -10px;
+    float: left;
+    width: 45px;
+    height: 40px;
+    border-radius: 6%;
+    padding: 2px;
+}
+nav .navbar-brand a, footer p a{
+    text-decoration: none !important;
+}
+nav .navbar-nav {
+    margin: 11px 0 10px 0 !important;
+    padding: 0 !important;
+}
+nav .navbar-nav a{
+    text-decoration: none !important;
+    padding: 6px 15px !important;
+    border: 1px solid transparent;
+    font-size: 14px;
+    margin-left: 5px;
+    font-family: Baloo;
+    font-size: 16px;
+}
+nav .navbar-nav a:not(#contact-btn):hover {
+    border-color: #09C924 !important;
+    border-radius: 2px;
+}
+#contact-btn {
+    margin-left: 10px !important;
+    color: white !important;
+    background: #09C924 !important;
+    border-radius: 2px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.15);
+}
+.navbar-toggle{
+    margin-top: 12px !important;
+    border: 0 !important;
+    border-radius: 2px !important;
+}
+.navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus {
+    background: transparent !important;
+}
+.nav-dropdown-background {
+    background: white;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+.nav-link-dropdown-color {
+    color: rgba(0, 0, 0, 0.4) !important;
+}
+@media(max-width: 850px) {
+    nav .navbar-nav a {
+        font-size: 16px;
+    }
+}
+@media(max-width: 767px){
+    #contact-btn {
+        top: 0 !important;
+        margin-left: 0px !important;
+        width: 140px;
+        float: right;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .navbar-nav > li > a {
+        text-align: center;
+    }
+    .title-line {
+        margin-top: 0px !important;
+        margin-bottom: 40px ;
+        width: 100px; 
+    }
+    nav .navbar-brand a h3{
+        font-size: 25px;
+    }
+}
+@media(max-width: 400px){
+    nav .navbar-brand a h3{
+        font-size: 20px;
+    }
+    nav .navbar-brand img {
+        top: -7px;
+        width: 35px;
+        height: 30px;
+
+    }
+}
+/**footer**/
+
+footer {
+    background: url('../images/index-img/footer.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 15px;
+    color: white;
+    position: relative;
+    height: 150px;
+}
+.footer-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128,0,128, 0.8);
+    z-index: 0;
+}
+.footer-data {
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    left: 10%;
+    right: 0;
+}
+footer i {
+    color: #09C924 !important;
+    font-size: 16px;
+    margin: 0px ;
+}
+footer ul {
+    margin-top: 0px;
+}
+footer a {
+    color: white;
+}
+@media(max-width: 400px) {
+ footer ul > p {
+     font-size: 14px;
+ }
+}

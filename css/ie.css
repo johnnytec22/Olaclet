@@ -1,0 +1,32 @@
+
+.owl-carousel, section#testimony  {
+    display: none;
+    visibility: hidden;
+}
+
+header {
+    background: url('../images/index-img/adeptal welcome.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    color: white;
+}
+header #ie_and_edge_header {
+    visibility: visible;
+    display: block;
+}
+@media(max-width: 800px) {
+    header {
+        height: 400px !important;
+    }
+}
+@media(max-width: 600px) {
+    header {
+        height: 300px !important;
+    }
+}
+@media(max-width: 400px) {
+    header {
+        height: 280px !important;
+    }
+}

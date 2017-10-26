@@ -1,0 +1,218 @@
+
+
+/**header**/
+header {
+    background-image: url('../images/about-img/about adeptal.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 440px;
+    position: relative;
+}
+
+header .container #header-info {
+    color: white;
+    z-index: 1;
+    position: absolute;
+    top: 45%;
+    bottom: 0;
+    right: 27%;
+    left: 27%;
+}
+
+@media(max-width: 800px) and (min-width: 501px){
+    header .container #header-info {
+        right: 16%;
+        left: 16%;
+    }
+    header .container #header-info h1 {
+        font-size: 30px;
+    }
+    header .container #header-info p {
+        font-size: 15px;
+    }
+}
+
+header .container #header-info p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+header .overlay {
+    position: absolute;
+    background: rgba(128, 0, 128, 0.7);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+@media(max-width: 500px) {
+    header {
+        height: 280px;
+    }
+    header .container #header-info {
+        right: 0;
+        left: 0;
+    }
+    header .container #header-info h1 {
+        font-size: 26px;
+    }
+    header .container #header-info p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+}
+
+@media(max-width: 400px) {
+    header .container #header-info h1 {
+        font-size: 23px;
+    }
+    header .container #header-info p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    header .container #header-info {
+        top: 40%;
+    }
+}
+
+.circle-bordered {
+    display: inline-block;
+    font-size: 23px !important;
+    line-height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 15px;
+    background: #09C924;
+}
+
+main section i {
+    color: white !important;
+}
+
+#mission p, #vision p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#mission h3, #vision h3, #history h3, #values h3, #working_at_adeptal h3 {
+    font-size: 32px;
+    color: black;
+    font-family: Baloo;
+}
+
+#mission {
+    padding: 150px 0;
+    background: white;
+}
+
+#mission h3 {
+    color: black;
+}
+
+#vision {
+    padding: 120px 0;
+    background: white;
+}
+@media(max-width: 600px) {
+    #mission h3, #vision h3, #history h3, #values h3, #working_at_adeptal h3 {
+        font-size: 25px;
+    }
+    #mission {
+        padding: 70px 0;
+    }
+    #vision {
+        padding: 70px 0;
+    }
+    #mission p, #vision p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+/**values **/
+#values{
+    padding: 120px 0 0 0;
+    background: url('../images/about-img/our values adeptal.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#values .value-overlay {
+    position: absolute;
+    background: rgba(128, 0, 128, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#values .value-column {
+    height: 230px;
+}
+#values h3 {
+    color: white;
+}
+#values .value_hr {
+    border: 1px solid #09C924;
+}
+#values h4 {
+    color: white;
+    font-size: 23px;
+    font-family: Baloo;
+}
+#values p {
+    font-size: 17px;
+    line-height: 1.5;
+    color: white;
+}
+@media(max-width: 768px) and (min-width: 390px) {
+    #values .value-inner {
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/**history stylings**/
+#history {
+    padding: 120px 0 120px 0;
+    background: white;
+}
+
+
+/**working at adeptal**/
+#working_at_adeptal {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: white;
+}
+
+#working_at_adeptal h4, #history h4 {
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.7;
+    margin-bottom: 20px;
+    font-size: 18px !important;
+}
+@media(max-width: 770px) {
+    #working_at_adeptal {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #working_at_adeptal h2 {
+        font-size: 25px;
+    }
+    #working_at_adeptal .title-line {
+        margin-bottom: 40px;
+    }
+
+    #working_at_adeptal h4,#history h4  {
+        line-height: 1.5 ;
+        font-size: 16px !important;
+    }
+}

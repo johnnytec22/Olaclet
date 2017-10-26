@@ -1,0 +1,448 @@
+
+header #ie_and_edge_header {
+    visibility: hidden;
+    display: none;
+}
+/**nav stylings are in the general.css**/
+/**header stylings**/
+
+header {
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    background: white;
+}
+header .overlay {
+    position: absolute;
+    background: rgba(128,0,128, 0.7);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+#showcase .owl-item {
+    width: 100%;
+    max-height: 550px !important;
+}
+#showcase .owl-item img {
+    max-height: 550px;
+}
+header div.header_info {
+    position: absolute;
+    top: 48%;
+    right: 0;
+    left: 0;
+    color: white;
+}
+header div.header_info p {
+    color: whitesmoke;
+    font-size: 19px;
+    line-height: 1.6;
+}
+header div.header_info i {
+    color: #09C924;
+}
+i.page-icon {
+    top: 87%;
+    z-index: 3;
+}
+@media(min-width: 768px) {
+    header div.header_info {
+        right: 23%;
+        left: 23%;
+    }
+}
+@media(max-width: 650px) {
+    header div.header_info h1{
+        font-size: 26px;
+    }
+    header div.header_info p{
+        font-size: 16px;
+    }
+}
+@media(max-width: 450px) {
+    header .overlay {
+        height: 290px;
+        width: 100%;
+    }
+    header div.header_info {
+        top: 38%;
+    }
+    #showcase .owl-item img {
+        height: 290px;
+        width: 451px;
+        overflow-x: hidden !important;
+    }
+    header h1 {
+        font-size: 26px;
+        color: white;
+    }
+    header div.header_info p{
+        font-size: 16px;
+        line-height: 1.4;
+    }
+}
+@media(max-width: 400px){
+    #showcase .owl-item img {
+        height: 280px;
+        width: 401px;
+        overflow-x: hidden !important;
+    }
+    header .overlay {
+        height: 280px;
+        width: 100%;
+    }
+    header div.header_info h1{
+        font-size: 25px;
+    }
+    header div.header_info p{
+        font-size: 15px;
+    }
+}
+/* IE10+ CSS styles go here */
+/**ie and edge overlay and stylings**/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+    .owl-carousel, section#testimony  {
+        display: none;
+        visibility: hidden;
+    }
+    
+    header {
+        background: url('../images/index-img/adeptal welcome.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+        color: white;
+    }
+    header #ie_and_edge_header {
+        visibility: visible;
+        display: block;
+    }
+}
+@media (max-width: 800px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+    header {
+        height: 400px;
+    }
+}
+@media (max-width: 600px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+    header {
+        height: 300px;
+    }
+}
+@media (max-width: 400px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+    header {
+        height: 280px;
+    }
+}
+
+/* IE Edge 12+ CSS styles go here */ 
+@supports (-ms-accelerator: true) {
+    /* IE Edge 12+ CSS styles go here */ 
+    .owl-carousel, section#testimony {
+        visibility: hidden;
+        display: none;
+    }
+    header {
+        background: url('../images/index-img/adeptal welcome.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+        color: white;
+    }
+    header #ie_and_edge_header {
+        visibility: visible;
+        display: block;
+    }
+    @media(max-width: 800px) {
+        header {
+            height: 400px !important;
+        }
+    }
+    @media(max-width: 600px) {
+        header {
+            height: 300px !important;
+        }
+    }
+    @media(max-width: 400px) {
+        header {
+            height: 280px !important;
+        }
+    }
+
+}/**end of ie and edge browsers styles**/
+
+
+
+/*main content*/
+/*services */
+#services {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: white;
+    
+}
+#services #services_intro {
+    font-size: 23px;
+    margin-bottom: 130px;
+}
+#services .thumbnail {
+    padding: 0px !important;
+    border-radius: 3px !important;
+    border: 0 !important;
+    margin: 0 auto 50px auto;
+    box-shadow: 0px 1px 2px 1px rgba(0,0,0, 0.2);
+}
+@media(min-width: 350px) {
+    #services .thumbnail {
+        width: 300px;
+    }
+}
+#services .thumbnail img {
+    width: 100%;
+    height: 180px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+#services h3 {
+    color: black !important;
+    margin-top: 30px;
+}
+#services i {
+    color: #09C924;
+}
+#services .thumbnail .caption h4 span{
+    font-size: 16px;
+    font-family: Baloo;
+    color: rgba(0,0,0, 0.8);
+}
+#services .thumbnail .caption {
+    padding-top: 0px !important;
+    padding-bottom: 5px !important;
+}
+#services .thumbnail .poster {
+    cursor: pointer;
+    position: relative !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#services .thumbnail .poster .overlay-info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128,0,128, 0.5);
+    padding: 2%;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+#services .thumbnail .poster .overlay-info .dark_product_overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.6);
+    opacity: 1;
+    padding: 2%;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    animation-duration: 0.8s;
+    -webkit-animation-duration: 0.8s;
+    -moz-animation-duration: 0.8s;
+    -o-animation-duration: 0.8s;
+    -ms-animation-duration: 0.8s;
+}
+#services .thumbnail .poster .overlay-info p {
+    margin-top: 5%;
+    color: white;
+    font-size: 14px;
+}
+
+@media(max-width: 770px){
+    #services {
+        padding-top: 30px;
+        margin-top: 0px;
+        padding-bottom: 80px;
+        margin-bottom: 0px;
+    }
+    #services h3 {
+        font-size: 20px;
+    }
+    #services .title-line {
+        margin-bottom: 20px;
+    }
+    #services #services_intro {
+        font-size: 17px;
+        margin-bottom: 70px;
+    }
+}
+/**scopes section**/
+#scopes {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background: #F5F5F5;
+    box-shadow: 0px 1px 2px 1px rgba(0,0,0, 0.2) inset;
+}
+
+#scopes #scope_heading {
+    position: absolute;
+    top: -7%;
+    left: 35%;
+    right: 35%;
+    padding: 10px 5%;
+    border-radius: 3px;
+    background: white;
+    box-shadow: 0 1px 2px 1px rgba(0,0,0, 0.2);
+}
+#scopes #scopes1, #scopes #scopes2{
+    padding: 30px 0;
+}
+#scopes h3 {
+    padding: 0px !important;
+    margin: 0px !important;
+    color: black;
+    font-family: Baloo;
+ }
+#scopes i {
+    color: #CCC8C8;
+}
+#scopes h4 {
+    display: inline-block;
+    margin: 0px !important;
+    font-family: Baloo;
+    font-size: 19px;
+    color:  #CCC8C8;
+    padding: 10px 20px;
+    border-radius: 2px;
+    background: white;
+    box-shadow: 0 1px 0.5px 1px rgba(0,0,0, 0.1);
+}
+
+@media(max-width: 770px) {
+    
+
+    #scopes h3 {
+        font-size: 22px;
+    }
+}
+/**why adeptal **/
+#why_adeptal {
+    padding: 130px 0;
+    background: white;
+    color: black;
+}
+#why_adeptal .content {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+#why_adeptal i {
+    color: #09C924;
+}
+#why_adeptal h4 {
+    color: rgba(0,0,0, 0.8);
+    font-size: 20px;
+}
+#why_adeptal p {
+    font-size: 18px;
+}
+@media(max-width: 770px) {
+    #why_adeptal {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #why_adeptal h3 {
+        font-size: 22px;
+    }
+    #why_adeptal .title-line {
+        margin-bottom: 40px;
+    }
+}
+
+#clients {
+    padding: 60px 0;
+    background: #F5F5F5;
+    color: black;
+    position: relative;
+    border-top: 1.3px solid rgba(0,0,0, 0.05);
+    border-bottom: 1.3px solid rgba(0,0,0, 0.05);
+}
+#clients #client_heading {
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    top: -140%;
+    padding: 10px 5%;
+    border-radius: 3px;
+    background: white;
+    font-family: Baloo;
+    box-shadow: 0 0.5px 1px 0.5px rgba(0,0,0, 0.1);
+}
+#clients .jumbotron {
+    background: white;
+    font-family: Baloo;
+    border-radius: 2px;
+    box-shadow: 0 0.5px 1px 0.5px rgba(0,0,0, 0.1);
+}
+#clients #services_intro {
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: #CCC8C8;
+}
+
+/**testimonies**/
+#testimony {
+    padding: 150px 0 150px 0;
+    background: white;
+}
+ #testimony h3 {
+     color: black;
+ }
+
+#testimony > div > i {
+    color: dodgerblue;
+}
+#testimony i {
+    color: dodgerblue;
+}
+#testimony p {
+    color: gray;
+}
+#testimony .testimony-carousel .item h4 {
+    color: rgba(0,0,0, 0.5);
+    font-size: 20px;
+}
+
+@media(max-width: 770px) {
+    #testimony {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #testimony h2 {
+        font-size: 22px;
+    }
+    #testimony .title-line {
+        margin-bottom: 50px;
+    }
+}
+#why_adeptal h3, #testimony h3, #services h3, #why_adeptal h4 {
+    font-family: Baloo;
+}
+
+
+
