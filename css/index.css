@@ -20,7 +20,7 @@ header {
 }
 header .overlay {
     position: absolute;
-    background: rgba(128,0,128, 0.7);
+    background: rgba(0,0,0,0.7);
     top: 0;
     left: 0;
     right: 0;
@@ -244,7 +244,7 @@ i.page-icon {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(128,0,128, 0.5);
+    background: rgba(0,0,0, 0.6);
     padding: 2%;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
@@ -255,7 +255,6 @@ i.page-icon {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0,0,0,0.6);
     opacity: 1;
     padding: 2%;
     border-top-right-radius: 3px;
@@ -324,20 +323,25 @@ i.page-icon {
 #scopes h4 {
     display: inline-block;
     margin: 0px !important;
-    font-family: Baloo;
-    font-size: 19px;
-    color:  #CCC8C8;
+    font-family: Josefin;
+    font-weight: bold;
+    font-size: 17px;
+    color:  black;
     padding: 10px 20px;
     border-radius: 2px;
     background: white;
-    box-shadow: 0 1px 0.5px 1px rgba(0,0,0, 0.1);
+    box-shadow: 0 0.5px 1px 0.5px rgba(0,0,0, 0.1);
 }
 
-@media(max-width: 770px) {
-    
-
+@media(max-width: 767px) {
     #scopes h3 {
-        font-size: 22px;
+        font-size: 20px;
+    }
+    #scopes #scopes1, #scopes #scopes2{
+        padding: 0 0;
+    }
+    #scopes h4 {
+        margin-bottom: 20px !important;
     }
 }
 /**why adeptal **/
@@ -363,7 +367,7 @@ i.page-icon {
 @media(max-width: 770px) {
     #why_adeptal {
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
     }
 
     #why_adeptal h3 {
@@ -386,23 +390,59 @@ i.page-icon {
     position: absolute;
     left: 35%;
     right: 35%;
-    top: -140%;
+    top: -8%;
     padding: 10px 5%;
     border-radius: 3px;
     background: white;
     font-family: Baloo;
     box-shadow: 0 0.5px 1px 0.5px rgba(0,0,0, 0.1);
 }
+#clients #client_heading h3{
+    margin: 0 !important;
+}
+#clients i {
+    color: #CCC8C8;
+}
 #clients .jumbotron {
+    height: 80px;
+    padding: 20px 7px;
     background: white;
     font-family: Baloo;
     border-radius: 2px;
     box-shadow: 0 0.5px 1px 0.5px rgba(0,0,0, 0.1);
 }
+#clients .jumbotron h3 {
+    margin: 0px;
+    margin-top: 11px;
+    font-size: 18px;
+    color: gray;
+
+}
+@media(max-width: 767px) {
+    #clients #client_heading h3{
+        font-size: 20px;
+    }
+}
+@media(max-width: 360px) {
+    #clients .jumbotron h3 {
+        font-size: 16px;
+        color: gray;
+        margin-left: 12px
+    }
+}
 #clients #services_intro {
     font-size: 20px;
     margin-bottom: 50px;
-    color: #CCC8C8;
+    color: gray;
+}
+#clients .client_img {
+    margin: 0 !important;
+    height: 40px;
+    width: 40px;
+    background-image: url('../images/index-img/ids pulp and paper.png');
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
 }
 
 /**testimonies**/
@@ -415,7 +455,7 @@ i.page-icon {
  }
 
 #testimony > div > i {
-    color: dodgerblue;
+    color: #09C924;
 }
 #testimony i {
     color: dodgerblue;

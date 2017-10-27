@@ -94,5 +94,8 @@ $(document).ready(function() {
 
     //on widow resize 
     $(window).on('resize', alignIndustryTextAndImage);
+
+    //services bullets
+    $('#services .thumbnail .caption h4').prepend('<i class="fa fa-dot-circle-o fa-fw"></i>')
     
 });
