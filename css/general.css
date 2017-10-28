@@ -28,22 +28,22 @@ header .container #header-info p {
     margin-top: 0px !important;
     margin-bottom: 70px ;
     width: 60px;
-    border : 1px solid #09C924;
+    border : 1px solid dodgerblue;
 }
 i.page-icon {
-    color: #09C924;
+    color: dodgerblue;
     position: absolute;
     top: 94%;
     left: 8%;
 }
 /**active page**/
 .active {
-    border-color: #09C924 !important;
+    border-color: dodgerblue !important;
     border-radius: 2px;
 }
 .btn-primary {
     color: white;
-    background: #09C924;
+    background: dodgerblue;
     text-transform: uppercase;
     padding: 7px 20px !important;
     font-size: 15px;
@@ -57,9 +57,9 @@ i.page-icon {
     }
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-    color: #09C924 !important;
+    color: dodgerblue !important;
     background: transparent !important;
-    border: 1px solid #09C924 !important;
+    border: 1px solid dodgerblue !important;
 }
 nav {
     border: 0px !important;
@@ -106,13 +106,13 @@ nav .navbar-nav a{
     font-size: 16px;
 }
 nav .navbar-nav a:not(#contact-btn):hover {
-    border-color: #09C924 !important;
+    border-color: dodgerblue !important;
     border-radius: 2px;
 }
 #contact-btn {
     margin-left: 10px !important;
     color: white !important;
-    background: #09C924 !important;
+    background: dodgerblue !important;
     border-radius: 2px;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.15);
 }
@@ -196,7 +196,7 @@ footer {
     right: 0;
 }
 footer i {
-    color: #09C924 !important;
+    color: dodgerblue !important;
     font-size: 16px;
     margin: 0px ;
 }

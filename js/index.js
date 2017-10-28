@@ -96,6 +96,7 @@ $(document).ready(function() {
     $(window).on('resize', alignIndustryTextAndImage);
 
     //services bullets
-    $('#services .thumbnail .caption h4').prepend('<i class="fa fa-dot-circle-o fa-fw"></i>')
+    $('#services .thumbnail .caption h4').prepend('<i class="fa fa-dot-circle-o red-dot"></i>');
+    $('#services .thumbnail .caption h4').prepend('<i class="fa fa-dot-circle-o "></i>')
     
 });

@@ -47,7 +47,7 @@ header div.header_info p {
     line-height: 1.6;
 }
 header div.header_info i {
-    color: #09C924;
+    color: dodgerblue;
 }
 i.page-icon {
     top: 87%;
@@ -219,7 +219,10 @@ i.page-icon {
     margin-top: 30px;
 }
 #services i {
-    color: #09C924;
+    color: dodgerblue;
+}
+#services p i {
+    color: #06D358;
 }
 #services .thumbnail .caption h4 span{
     font-size: 16px;
@@ -270,7 +273,9 @@ i.page-icon {
     color: white;
     font-size: 14px;
 }
-
+#services i.red-dot {
+    color: #FD4128;
+}
 @media(max-width: 770px){
     #services {
         padding-top: 30px;
@@ -318,7 +323,7 @@ i.page-icon {
     font-family: Baloo;
  }
 #scopes i {
-    color: #CCC8C8;
+    color: dodgerblue;
 }
 #scopes h4 {
     display: inline-block;
@@ -344,9 +349,9 @@ i.page-icon {
         margin-bottom: 20px !important;
     }
 }
-/**why adeptal **/
+/**why olaclet **/
 #why_adeptal {
-    padding: 130px 0;
+    padding: 130px 0 150px 0;
     background: white;
     color: black;
 }
@@ -355,7 +360,7 @@ i.page-icon {
     padding-top: 30px;
 }
 #why_adeptal i {
-    color: #09C924;
+    color: dodgerblue;
 }
 #why_adeptal h4 {
     color: rgba(0,0,0, 0.8);
@@ -378,13 +383,13 @@ i.page-icon {
     }
 }
 
+/**our clients section**/
 #clients {
     padding: 60px 0;
     background: #F5F5F5;
     color: black;
     position: relative;
-    border-top: 1.3px solid rgba(0,0,0, 0.05);
-    border-bottom: 1.3px solid rgba(0,0,0, 0.05);
+    box-shadow: 0px 1px 2px 1px rgba(0,0,0, 0.2) inset;
 }
 #clients #client_heading {
     position: absolute;
@@ -395,13 +400,13 @@ i.page-icon {
     border-radius: 3px;
     background: white;
     font-family: Baloo;
-    box-shadow: 0 0.5px 1px 0.5px rgba(0,0,0, 0.1);
+    box-shadow: 0 1px 2px 1px rgba(0,0,0, 0.2);
 }
 #clients #client_heading h3{
     margin: 0 !important;
 }
 #clients i {
-    color: #CCC8C8;
+    color: dodgerblue;
 }
 #clients .jumbotron {
     height: 80px;
@@ -415,7 +420,7 @@ i.page-icon {
     margin: 0px;
     margin-top: 11px;
     font-size: 18px;
-    color: gray;
+    color: rgba(0,0,0, 0.8);
 
 }
 @media(max-width: 767px) {
@@ -455,7 +460,7 @@ i.page-icon {
  }
 
 #testimony > div > i {
-    color: #09C924;
+    color: dodgerblue;
 }
 #testimony i {
     color: dodgerblue;
