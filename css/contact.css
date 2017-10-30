@@ -1,13 +1,13 @@
 /**nav stylings are in the general.css**/
 .input-group-addon, .form-control {
-    border: 1px solid #09C924!important;
+    border: 1px solid dodgerblue!important;
 }
 .input-group-addon {
     border-top-left-radius: 3px !important;
     border-bottom-left-radius: 3px !important;
     color: white;
-    border-color: #09C924 !important;
-    background-color: #09C924 !important;
+    border-color: dodgerblue !important;
+    background-color: dodgerblue !important;
 }
 .form-control {
     border-top-right-radius: 3px !important;
@@ -15,7 +15,7 @@
 }
 /**header**/
 header {
-    background-image: url('../images/contact-img/adeptal contact us1.jpg');
+    background-image: url('../images/contact-img/olaclet contact us1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -35,7 +35,7 @@ header .container #header-info {
 
 header .overlay, #contact_info .overlay {
     position: absolute;
-    background: rgba(128, 0, 128, 0.8);
+    background: rgba(0, 0, 0, 0.7);
     top: 0;
     left: 0;
     right: 0;
@@ -147,7 +147,7 @@ header .overlay, #contact_info .overlay {
     color: white;
     margin-bottom: 0px !important;
     padding: 150px 0;
-    background-image: url('../images/contact-img/adeptal contact info.jpg');
+    background-image: url('../images/contact-img/olaclet contact info.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -163,8 +163,8 @@ header .overlay, #contact_info .overlay {
 #contact_info .well {
     background : rgba(0, 0, 0, 0.9) !important;
     color: whitesmoke;
+    border: 1px solid white;
     border-radius: 4px !important;
-    border: 0 !important;
     position: absolute;
     height: 230px;
     top: -18%;
@@ -173,7 +173,7 @@ header .overlay, #contact_info .overlay {
     z-index: 10;
 }
 #contact_info #opening_hours i {
-    color: #09C924;
+    color: dodgerblue;
 }
 #contact_info #opening_hours h3 {
     color: whitesmoke;
@@ -230,7 +230,7 @@ footer {
     color: rgba(0, 0, 0, 0.9);
 }
 footer i {
-    color: purple !important;
+    color: dodgerblue !important;
 }
 
 footer a {

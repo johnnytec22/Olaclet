@@ -235,7 +235,7 @@ i.page-icon {
 }
 #services .thumbnail .poster {
     cursor: pointer;
-    position: relative !important;
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
@@ -247,7 +247,8 @@ i.page-icon {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0,0,0, 0.6);
+    opacity: 0.4;
+    background: rgba(0,0,0, 1);
     padding: 2%;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
@@ -274,7 +275,7 @@ i.page-icon {
     font-size: 14px;
 }
 #services i.red-dot {
-    color: #FD4128;
+    color: orangered;
 }
 @media(max-width: 770px){
     #services {
@@ -347,6 +348,7 @@ i.page-icon {
     }
     #scopes h4 {
         margin-bottom: 20px !important;
+        width: 260px;
     }
 }
 /**why olaclet **/

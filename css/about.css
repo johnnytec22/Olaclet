@@ -12,14 +12,16 @@ header {
 
 header .container #header-info {
     color: white;
-    z-index: 1;
     position: absolute;
     top: 45%;
     bottom: 0;
     right: 27%;
     left: 27%;
 }
-
+header .container #header-info p {
+    font-size: 17px;
+    line-height: 1.6;
+}
 @media(max-width: 800px) and (min-width: 501px){
     header .container #header-info {
         right: 16%;
@@ -32,22 +34,36 @@ header .container #header-info {
         font-size: 15px;
     }
 }
-
-header .container #header-info p {
-    font-size: 17px;
-    line-height: 1.6;
-}
-
 header .overlay {
     position: absolute;
-    background: rgba(128, 0, 128, 0.7);
+    background: rgba(0, 0, 0, 0.7);
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 0;
 }
-
+header #about_heading {
+    position: absolute;
+    top: 94%;
+    left: 35%;
+    right: 35%;
+    padding: 10px 5%;
+    border-radius: 3px;
+    background: white;
+    box-shadow: 0 1px 2px 1px rgba(0,0,0, 0.2);
+}
+header #about_heading h3 {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+header #about_heading p {
+    font-size: 17px;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #09C924;
+}
 @media(max-width: 500px) {
     header {
         height: 280px;
@@ -62,10 +78,10 @@ header .overlay {
     header .container #header-info p {
         font-size: 15px;
         line-height: 1.6;
+        padding: 0 5px;
     }
 
 }
-
 @media(max-width: 400px) {
     header .container #header-info h1 {
         font-size: 23px;
@@ -86,133 +102,236 @@ header .overlay {
     width: 70px;
     border-radius: 50%;
     text-align: center;
-    margin-bottom: 15px;
-    background: #09C924;
+    background: dodgerblue;
 }
-
-main section i {
-    color: white !important;
-}
-
-#mission p, #vision p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: rgba(0, 0, 0, 0.8);
-}
-
-#mission h3, #vision h3, #history h3, #values h3, #working_at_adeptal h3 {
-    font-size: 32px;
-    color: black;
-    font-family: Baloo;
-}
-
-#mission {
-    padding: 150px 0;
-    background: white;
-}
-
-#mission h3 {
-    color: black;
-}
-
 #vision {
     padding: 120px 0;
     background: white;
 }
+
+#vision i {
+    color: white;
+}
+#vision p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.8);
+}
+#vision h3, #about h3, #values h3{
+    color: black;
+    font-family: Baloo;
+    font-size: 24px;
+}
+@media(max-width: 767px) {
+    #vision #mission {
+        margin-top: 50px;
+    }
+}
 @media(max-width: 600px) {
-    #mission h3, #vision h3, #history h3, #values h3, #working_at_adeptal h3 {
-        font-size: 25px;
-    }
-    #mission {
-        padding: 70px 0;
-    }
-    #vision {
-        padding: 70px 0;
-    }
-    #mission p, #vision p {
+    #vision p {
         font-size: 16px;
         line-height: 1.5;
     }
-}
-/**values **/
-#values{
-    padding: 120px 0 0 0;
-    background: url('../images/about-img/our values adeptal.jpeg') no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-#values .value-overlay {
-    position: absolute;
-    background: rgba(128, 0, 128, 0.8);
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-#values .value-column {
-    height: 230px;
-}
-#values h3 {
-    color: white;
-}
-#values .value_hr {
-    border: 1px solid #09C924;
-}
-#values h4 {
-    color: white;
-    font-size: 23px;
-    font-family: Baloo;
-}
-#values p {
-    font-size: 17px;
-    line-height: 1.5;
-    color: white;
-}
-@media(max-width: 768px) and (min-width: 390px) {
-    #values .value-inner {
-        width: 320px;
-        margin-left: auto;
-        margin-right: auto;
+    header #about_heading {
+        left: 20%;
+        right: 20%;
+    }
+    header #about_heading h3 {
+        font-size: 17px;
+    }
+    header #about_heading p {
+        font-size: 15px;
+    }
+    .circle-bordered {
+        line-height: 50px;
+        width: 50px;
     }
 }
 
-
-/**history stylings**/
-#history {
-    padding: 120px 0 120px 0;
+/**our team section**/
+#team {
+    padding: 60px 0 40px 0;
+    background: #F5F5F5;
+    color: black;
+    position: relative;
+    box-shadow: 0px 1px 2px 1px rgba(0,0,0, 0.2) inset;
+}
+#team #team_heading {
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    top: -33px;
+    padding: 10px 5%;
+    border-radius: 3px;
     background: white;
+    font-family: Baloo;
+    box-shadow: 0 1px 2px 1px rgba(0,0,0, 0.2);
+}
+#team #team_heading h3{
+    margin: 0 !important;
+}
+#team .container {
+    overflow-x: scroll;
+}
+#team ul {
+    width: 700%;
+    padding: 0;
+}
+#team li {
+    float: left;
+    margin-right: 10px;
+    list-style: none;
+}
+#team i {
+    color: dodgerblue;
+}
+#team .thumbnail {
+    height: 350px;
+    width: 270px;
+    padding: 2px;
+    border: 0;
+    box-shadow: 0 0.5px 1px 0.5px rgba(0,0,0, 0.1);
+}
+#team .thumbnail .poster {
+    position: relative;
+}
+#team .thumbnail .poster img {
+    height: 165px;
+    width: 100%;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+#team .thumbnail .team_overlay {
+    position: absolute;
+    top: 0 ;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    background: rgba(0, 0, 0, 0.5);
+    background: -webkit-linear-gradient(rgba(5,114,227, 0.5) 40%, rgba(5,114,227, 0.8));
+    background: -o-linear-gradient(rgba(5,114,227, 0.5) 40%, rgba(5,114,227, 0.8));
+    background: -moz-linear-gradient(rgba(5,114,227, 0.5) 40%, rgba(5,114,227, 0.8));
+    background: linear-gradient(rgba(5,114,227, 0.5) 40%, rgba(5,114,227, 0.8));
+}
+#team .thumbnail .personal_img {
+    position: relative;
+    margin: -45px auto 0!important;
+    height: 70px;
+    width: 70px;
+    border: 2px solid white;
+    background: white;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+}
+#team .thumbnail p {
+    color: dodgerblue;
+}
+#team .thumbnail p.small {
+    font-size: 9px !important;
+}
+#team .thumbnail p.link, #team .thumbnail p a{
+    margin: 0;
+    padding: 0;
+}
+#team .thumbnail h4 {
+    margin: 0px;
+    margin-top: 11px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0,0,0, 0.8);
+}
+#team .thumbnail h5 {
+    font-size: 16px;
+    color: gray;
 }
 
-
-/**working at adeptal**/
-#working_at_adeptal {
-    padding-top: 150px;
-    padding-bottom: 150px;
+/**about stylings**/
+#about {
+    padding: 120px 0;
     background: white;
 }
-
-#working_at_adeptal h4, #history h4 {
+#about i {
+    color: white;
+}
+#about h4 {
     color: rgba(0, 0, 0, 0.8);
     line-height: 1.7;
     margin-bottom: 20px;
     font-size: 18px !important;
 }
 @media(max-width: 770px) {
-    #working_at_adeptal {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    #working_at_adeptal h2 {
-        font-size: 25px;
-    }
-    #working_at_adeptal .title-line {
-        margin-bottom: 40px;
-    }
-
-    #working_at_adeptal h4,#history h4  {
+    #about h4  {
         line-height: 1.5 ;
         font-size: 16px !important;
     }
 }
+/**our values section**/
+#values {
+    padding: 60px 0;
+    background: #F5F5F5;
+    color: black;
+    position: relative;
+    box-shadow: 0px 1px 2px 1px rgba(0,0,0, 0.2) inset;
+}
+#values #value_heading {
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    top: -33px;
+    padding: 10px 5%;
+    border-radius: 3px;
+    background: white;
+    font-family: Baloo;
+    box-shadow: 0 1px 2px 1px rgba(0,0,0, 0.2);
+}
+#values #value_heading h3{
+    margin: 0 !important;
+}
+#values i {
+    color: dodgerblue;
+}
+#values i.red{
+    color: orangered;
+}
+#values i.green{
+    color: #09C924;
+}
+#values i.gray{
+    color: lightskyblue;
+}
+#values .well {
+    height: 180px;
+    padding: 20px 7px;
+    background: white;
+    font-family: Baloo;
+    border-radius: 2px;
+    border: 0;
+    box-shadow: 0 0.5px 1px 0.5px rgba(0,0,0, 0.1);
+}
+#values .well p {
+    height: 100px;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    font-family: Josefin;
+}
+@media(max-width: 767px) {
+    #values #value_heading h3, #team #team_heading h3,#vision h3, #about h3, #values h3{
+        font-size: 19px;
+    }
+}
+#values .well h3 {
+    margin: 0px;
+    font-size: 17px;
+    color: dodgerblue;
+}
+#values #services_intro {
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: gray;
+}
+

@@ -1,0 +1,112 @@
+            <section id="team">
+                <div class="container" >
+                    <div class="row text-center" id="team_heading">
+                        <h3><i class="fa fa-black-tie fa-fw"></i> THE TEAM</h3>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="thumbnail text-center">
+                                <div class="poster">
+                                    <img src="../images/about-img/adeptal welcome.jpg " alt="company image">
+                                    <div class="team_overlay"></div>
+                                </div>
+                                <div class="caption">
+                                    <div class="personal_img"></div>
+                                    <div class="worker_info">
+                                        <h4>Viashima David</h4>
+                                        <p class="small"> </p>
+                                        <h5>Project Manager (National)</h5>
+                                        <br/>
+                                        <p>viashima.david@olaclet.com.ng</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="thumbnail text-center">
+                                <div class="poster">
+                                    <img src="../images/about-img/adeptal welcome.jpg " alt="company image">
+                                    <div class="team_overlay"></div>
+                                </div>
+                                <div class="caption">
+                                    <div class="personal_img"></div>
+                                    <div class="worker_info">
+                                        <h4>Olakunle Timothy</h4>
+                                        <p class="small"> </p>
+                                        <h5>Business Developer</h5>
+                                        <br/>
+                                        <p>olakunle.timothy@olaclet.com.ng</p>
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="thumbnail text-center">
+                                <div class="poster">
+                                    <img src="../images/about-img/adeptal welcome.jpg " alt="company image">
+                                    <div class="team_overlay"></div>
+                                </div>
+                                <div class="caption">
+                                    <div class="personal_img"></div>
+                                    <div class="worker_info">
+                                        <h4>Kenneth  Okuna</h4>
+                                        <p class="small">(LLB, BL, MBA, B.SC, ACA, ACS, ACIT, ANIM)</p>
+                                        <h5>Head of Legal Services</h5>
+                                        <br/>
+                                        <p>kenneth.okuna@olaclet.com.ng</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="thumbnail text-center">
+                                <div class="poster">
+                                    <img src="../images/about-img/adeptal welcome.jpg " alt="company image">
+                                    <div class="team_overlay"></div>
+                                </div>
+                                
+                                <div class="caption">
+                                    <div class="personal_img"></div>
+                                    <div class="worker_info">
+                                        <h4>Abimbola Ogunyemi</h4>
+                                        <p class="small"> </p>
+                                        <h5>Product Sales</h5>
+                                        <br/>
+                                        <p>ogunyemi@olaclet.com.ng</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="thumbnail text-center">
+                                <div class="poster">
+                                    <img src="../images/about-img/adeptal welcome.jpg " alt="company image">
+                                    <div class="team_overlay"></div>
+                                </div>
+                                
+                                <div class="caption">
+                                    <div class="personal_img"></div>
+                                    <div class="worker_info">
+                                        <h4>Abimbola Ogunyemi</h4>
+                                        <p class="small"> </p>
+                                        <h5>Product Sales</h5>
+                                        <br/>
+                                        <p>ogunyemi@olaclet.com.ng</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section><!--end of team-->

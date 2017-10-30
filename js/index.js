@@ -38,11 +38,14 @@ $(document).ready(function() {
     $('#services .thumbnail').on({
         'mouseenter': function() {
             var dark_overlay = $(this).children('div.poster').children('div.overlay-info').find('.dark_product_overlay');
-            dark_overlay.addClass('animated fadeInUp')
+            dark_overlay.addClass('animated fadeInUp');
+            $(this).find('.poster .overlay-info').css('opacity', '0.8');
             dark_overlay.show();
         },
         'mouseleave': function() {
             var dark_overlay = $(this).children('div.poster').children('div.overlay-info').find('.dark_product_overlay');
+            dark_overlay.removeClass('animated fadeInUp');
+            $(this).find('.poster .overlay-info').css('opacity', '0.4');
             dark_overlay.hide();
         }
 
