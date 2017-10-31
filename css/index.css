@@ -446,9 +446,9 @@ i.page-icon {
     margin: 0 !important;
     height: 40px;
     width: 40px;
-    background-image: url('../images/index-img/ids pulp and paper.png');
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 50%;
 }
 
