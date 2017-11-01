@@ -12,11 +12,16 @@ $(document).ready(function() {
         }
     });
 
+    //value icons
     $('#values .well h3').prepend('<i class="fa fa-dot-circle-o fa-fw gray"></i>');
 
     $('#values .well p').after('<i class="fa fa-diamond fa-sm green"></i>');
-    $('#values .well p').after('<i class="fa fa-diamond fa-sm red"></i>')
-    $('#values .well p').after('<i class="fa fa-diamond fa-sm blue"></i>')
+    $('#values .well p').after('<i class="fa fa-diamond fa-sm red"></i>');
+    $('#values .well p').after('<i class="fa fa-diamond fa-sm blue"></i>');
 
-
+    //team icons
+    $('#team ul li .thumbnail .poster .team_icons').append('<i class="fa fa-star fa-sm blue"></i>');
+    $('#team ul li .thumbnail .poster .team_icons').append('<i class="fa fa-star fa-sm red"></i>');
+    $('#team ul li .thumbnail .poster .team_icons').append('<i class="fa fa-star fa-sm green"></i>');
+    $('#team ul li .thumbnail .poster .team_icons').append('<i class="fa fa-star fa-sm gold"></i>');
 });

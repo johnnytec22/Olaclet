@@ -221,9 +221,6 @@ i.page-icon {
 #services i {
     color: dodgerblue;
 }
-#services p i {
-    color: #06D358;
-}
 #services .thumbnail .caption h4 span{
     font-size: 16px;
     font-family: Baloo;
@@ -272,10 +269,23 @@ i.page-icon {
 #services .thumbnail .poster .overlay-info p {
     margin-top: 5%;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
 }
-#services i.red-dot {
+#services .thumbnail .poster .overlay-info p span.pipe {
+    font-weight: bold;
+    color: gold;
+}
+#services i.blue{
+    color: dodgerblue;
+}
+#services i.red, #services i.red-dot{
     color: orangered;
+}
+#services i.green{
+    color: #09C924;
+}
+#services i.last{
+    color: gold;
 }
 @media(max-width: 770px){
     #services {

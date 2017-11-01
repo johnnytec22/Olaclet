@@ -33,7 +33,7 @@ header .container #header-info {
     left: 27%;
 }
 
-header .overlay, #contact_info .overlay {
+header .overlay {
     position: absolute;
     background: rgba(0, 0, 0, 0.7);
     top: 0;
@@ -152,7 +152,16 @@ header .overlay, #contact_info .overlay {
     background-position: center;
     background-size: cover;
 }
-
+#contact_info .overlay {
+    position: absolute;
+    background: blue;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
 #contact_info #location {
     margin-top: 5% !important;
 }
@@ -163,7 +172,7 @@ header .overlay, #contact_info .overlay {
 #contact_info .well {
     background : rgba(0, 0, 0, 0.9) !important;
     color: whitesmoke;
-    border: 1px solid white;
+    border: 0;
     border-radius: 4px !important;
     position: absolute;
     height: 230px;

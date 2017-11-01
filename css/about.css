@@ -174,8 +174,28 @@ header #about_heading p {
     overflow-x: scroll;
 }
 #team ul {
-    width: 700%;
     padding: 0;
+    width: 130%;
+}
+@media(max-width: 1240px) {
+    #team ul {
+        width: 200%;
+    }
+}
+@media(max-width: 770px) {
+    #team ul {
+        width: 350%;
+    }
+}
+@media(max-width: 500px) {
+    #team ul {
+        width: 400%;
+    }
+}
+@media(max-width: 400px) {
+    #team ul {
+        width: 750%;
+    }
 }
 #team li {
     float: left;
@@ -247,6 +267,13 @@ header #about_heading p {
     font-size: 16px;
     color: gray;
 }
+#team .thumbnail .poster .team_icons {
+    position: absolute;
+    z-index: 5;
+    top: 190%;
+    left: 35%;
+    right: 35%;
+}
 
 /**about stylings**/
 #about {
@@ -290,14 +317,17 @@ header #about_heading p {
 #values #value_heading h3{
     margin: 0 !important;
 }
-#values i {
+#values i, #team i.blue {
     color: dodgerblue;
 }
-#values i.red{
+#values i.red, #team i.red{
     color: orangered;
 }
-#values i.green{
+#values i.green, #team i.green{
     color: #09C924;
+}
+#team i.gold{
+    color: gold;
 }
 #values i.gray{
     color: lightskyblue;

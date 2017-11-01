@@ -99,7 +99,14 @@ $(document).ready(function() {
     $(window).on('resize', alignIndustryTextAndImage);
 
     //services bullets
-    $('#services .thumbnail .caption h4').prepend('<i class="fa fa-dot-circle-o red-dot"></i>');
-    $('#services .thumbnail .caption h4').prepend('<i class="fa fa-dot-circle-o "></i>')
+    $('#services .thumbnail .caption h4').prepend('<i class="fa fa-dot-circle-o fa-xs green"></i>');
+    $('#services .thumbnail .caption h4').prepend('<i class="fa fa-dot-circle-o fa-xs red"></i>');
+    $('#services .thumbnail .caption h4').prepend('<i class="fa fa-dot-circle-o fa-xs "></i>')
     
+    //services overlay info icons
+    $('#services .thumbnail .poster .dark_product_overlay p').prepend('<i class="fa fa-dot-circle-o fa-sm last"></i> <br/>');
+    $('#services .thumbnail .poster .dark_product_overlay p').prepend('<i class="fa fa-dot-circle-o fa-sm green"></i> <br/>');
+    $('#services .thumbnail .poster .dark_product_overlay p').prepend('<i class="fa fa-dot-circle-o fa-sm red"></i>');
+    $('#services .thumbnail .poster .dark_product_overlay p').prepend('<i class="fa fa-dot-circle-o fa-sm blue"></i>');
+
 });
