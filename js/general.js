@@ -9,7 +9,7 @@ $(document).ready(function() {
             $('nav a').css('color', 'white');
             $('nav .navbar-brand h3').css('color', 'white');
         }else {
-            $('nav .navbar-toggle .icon-bar').css('background', '#09c924');
+            $('nav .navbar-toggle .icon-bar').css('background', 'dodgerblue');
             $('nav .navbar-brand h3').css('color', 'black');
             $('nav .navbar-nav a').css('color', 'rgba(0, 0, 0, 0.6)');
             $('nav').css('background', 'white').css('box-shadow', '0px 6px 10px rgba(0, 0, 0, 0.2)');
