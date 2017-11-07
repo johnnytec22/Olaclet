@@ -154,9 +154,10 @@ i.page-icon {
         display: none;
     }
     header {
-        background: url('../images/index-img/adeptal welcome.jpg') no-repeat;
+        background: url('../images/index-img/adeptal welcome.jpg');
         background-position: center;
         background-size: cover;
+        background-repeat: no-repeat;
         height: 550px;
         color: white;
     }
@@ -237,6 +238,13 @@ i.page-icon {
     bottom: 0;
     left: 0;
     right: 0;
+}
+#services .thumbnail .poster button {
+    text-transform: lowercase;
+    position: absolute;
+    padding: 2px 5px !important;
+    top: 89%;
+    right: 4px;
 }
 #services .thumbnail .poster .overlay-info {
     position: absolute;

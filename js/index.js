@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    
     var showcase = $('#showcase');
     showcase.owlCarousel({
         loop: true,
@@ -30,6 +31,7 @@ $(document).ready(function() {
         animateOut: 'fadeOut',
         animateIn: 'fadeIn'
     });
+    alert("Hover on a slide's text to Pause the Slide");
 
     //services over-lay animation
     $('#services .thumbnail .overlay-info').addClass('animated slideInUp');
@@ -109,4 +111,6 @@ $(document).ready(function() {
     $('#services .thumbnail .poster .dark_product_overlay p').prepend('<i class="fa fa-dot-circle-o fa-sm red"></i>');
     $('#services .thumbnail .poster .dark_product_overlay p').prepend('<i class="fa fa-dot-circle-o fa-sm blue"></i>');
 
+    //services info button
+    $('#services .thumbnail .poster .overlay-info').after('<button class="btn btn-primary btn-sm">info</button>');
 });
