@@ -31,8 +31,7 @@ $(document).ready(function() {
         animateOut: 'fadeOut',
         animateIn: 'fadeIn'
     });
-    alert("Hover on a slide's text to Pause the Slide");
-
+    
     //services over-lay animation
     $('#services .thumbnail .overlay-info').addClass('animated slideInUp');
     $('#services .thumbnail .poster .overlay-info .dark_product_overlay').hide();
