@@ -5,7 +5,7 @@ $(document).ready(function() {
         loop: true,
         margin: 0,
         autoplay: true,
-        autoplayTimeout: 4000,
+        autoplayTimeout: 5000,
         autoplayHoverPause: false,
         nav: false,
         items: 1,
@@ -26,10 +26,10 @@ $(document).ready(function() {
         margin: 10,
         nav: false,
         autoplay: 1000,
-        autoplayTimeout: 4000,
+        autoplayTimeout: 5000,
         items: 1,
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn'
+        animateOut: 'bounceOutLeft',
+        animateIn: 'bounceInRight'
     });
     
     //services over-lay animation
@@ -112,4 +112,6 @@ $(document).ready(function() {
 
     //services info button
     $('#services .thumbnail .poster .overlay-info').after('<button class="btn btn-primary btn-sm">info</button>');
+    //testimonies providers icons
+    $('#testimony .item p').prepend('<i class="fa fa-black-tie fa-fw"></i>');
 });
