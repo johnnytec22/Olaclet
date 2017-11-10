@@ -498,8 +498,8 @@ i.page-icon {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    #testimony h2 {
-        font-size: 22px;
+    #testimony h3 {
+        font-size: 20px;
     }
     #testimony .title-line {
         margin-bottom: 50px;
@@ -509,5 +509,15 @@ i.page-icon {
     font-family: Baloo;
 }
 
+/**styles for WE ARE HIRING - the main style is in general.css with 'about' as 'id'**/
+#about {
+    background: #F5F5F5;
+    padding: 5% 0;
+}
+#about .container {
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+}
 
 

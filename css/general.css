@@ -162,6 +162,42 @@ nav .navbar-nav a:not(#contact-btn):hover {
 
     }
 }
+.circle-bordered {
+    display: inline-block;
+    font-size: 23px !important;
+    line-height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    background: dodgerblue;
+}
+/**about stylings**/
+#about {
+    padding: 120px 0;
+    background: white;
+}
+#about i {
+    color: white;
+}
+#about h3 {
+    font-family: Baloo;
+}
+#about h4 {
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.7;
+    margin-bottom: 20px;
+    font-size: 18px !important;
+}
+@media(max-width: 770px) {
+    #about h4  {
+        line-height: 1.5 ;
+        font-size: 16px !important;
+    }
+    #about h3 {
+        font-size: 20px;
+    }
+}
+
 /**footer**/
 
 footer {
